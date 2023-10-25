@@ -1,0 +1,10 @@
+﻿<div>
+    <IgbCheckbox @bind-Checked="@this.IsChecked1">Checkbox1</IgbCheckbox><br />
+</div>
+<div>
+    @this.IsChecked1.ToString()
+</div>
+
+@code {
+    private bool IsChecked1 = true;
+}
